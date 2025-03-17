@@ -18,13 +18,13 @@ Este é uma simulaçaõ de um sistema **ERP Financeiro** simples, desenvolvido c
 
 ## 🚀 Como Executar o Projeto
 
-### 1️⃣ Clone o repositório:
+###  Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/erp-financeiro.git
 cd erp-financeiro
 ```
 
-### 2️⃣ Crie um ambiente virtual e instale as dependências:
+###  Crie um ambiente virtual e instale as dependências:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
@@ -32,7 +32,13 @@ venv\Scripts\activate  # Para Windows
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Execute a aplicação:
+###  Execute a carga do banco de dados:
 ```bash
-streamlit run erp.py
+python database_finance.py
+```
+
+
+### Execute a aplicação:
+```bash
+streamlit run app.py
 ```
